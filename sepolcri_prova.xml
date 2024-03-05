@@ -22,7 +22,7 @@
          </publicationStmt>
          <!-- Inserisco due distinti sourceDesc, uno relativo all'edizione dei Sepolcri presa a riferimento e l'altro in cui inserire le opere citate da Foscolo nelle note d'autore -->
          <sourceDesc>
-            <bibl type="edizione_moderna">
+            <bibl>
                <author xml:id="UF">Ugo Foscolo</author>
                <title>Le opere</title>
                <editor xml:id="FrP">Francesco Pagliai</editor>
@@ -109,13 +109,13 @@
         <note type="nota_d_autore" target="#W1" targetEnd="#W2">
            <emph>Epistole</emph> e <emph>Poesie campestri</emph> 
            di Ippolito Pindemonte
-        </note><!-- Qui ho replicato il modello di LeggoManzoni con @target e @targetEnd, ma chiaramente accolgo volentieri proposte diverse in merito -->
+        </note>
         <note type="nota_d'autore" target="#Se44">
           <foreign>Nam jam saepe homines patriam carosque parenteis
               Prodiderunt vitare Acherusia Templa petentes.
           <note type="nota_bibl_d_autore">
             <bibl corresp="#Lucrezio">Lucrezio, lib. III, 85.</bibl>
-          </note> <!-- aggiungo la nota d'autore, annidata all'interno di un'altra nota d'autore, distinguendola con @type: anche qui una soluzione artigianale, per cui accolgo volentieri proposte differenti -->
+          </note> 
           </foreign> E chiamavano 
           <foreign>Templa</foreign> anche i cieli.
           <note type="nota_bibl_d_autore">
