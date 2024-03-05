@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commenti alle poesie foscoliane, per un'edizione digitale</title>         
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+            <sourceDesc>
+               <!-- Edizione di riferimento per il testo base -->
+               <bibl>
+                  <author xml:id="UF">Ugo Foscolo</author>
+                  <title>Le opere</title>
+                  <editor xml:id="FrP">Francesco Pagliai</editor>
+                  <editor xml:id="MS">Mario Scotti</editor>
+                  <editor xml:id="GF">Gianfranco Folena</editor>
+                  <biblScope unit="volume">I</biblScope>
+                  <publisher>Le Monnier</publisher>
+                  <pubPlace>Firenze</pubPlace>
+                  <date>1985</date>
+               </bibl>
+               <!-- Lista degli esemplari a stampa del sonetto-->
+               <listWit>
+                  <witness>
+                     <bibl xml:id="Pg" type="rivista">
+                        <title>Nuovo giornale dei Letterati, tomo IV, Fascicolo di ottobre</title>
+                        <author>Ugo Foscolo</author>
+                        <date when="1802">1802</date>
+                        <pubPlace>Pisa</pubPlace>
+                        <editor>Tipografia della società letteraria</editor>
+                     </bibl>
+                  </witness>
+                  <witness>
+                     <bibl xml:id="Ps" type="volume">
+                        <title>Poesiw di Ugo Foscolo</title>
+                        <author>Ugo Foscolo</author>
+                        <editor>Tipografia della società letteraria</editor>
+                        <date when="1803">1803</date>
+                        <pubPlace>Pisa</pubPlace>
+                     </bibl>
+                  </witness>
+                  <witness>
+                     <bibl xml:id="Md" type="volume">
+                        <title>Poesie di Ugo Foscolo <emph>Sollicitae oblivia vitae</emph> Hor.</title>
+                        <author>Ugo Foscolo</author>
+                        <editor>De Stefanis</editor>
+                        <date when="1803">1803</date>
+                        <pubPlace>Milano</pubPlace>
+                     </bibl>
+                  </witness>
+                  <witness>
+                     <bibl xml:id="Mn" type="volume">
+                        <title>Poesie di Ugo Foscolo Seconda edizione accresciuta <emph>Sollicitae oblivia vitae</emph> Hor.</title>
+                        <author>Ugo Foscolo</author>
+                        <editor>Agnello Nobile</editor>
+                        <date when="1803">1803</date>
+                        <pubPlace>Milano</pubPlace>
+                     </bibl>
+                  </witness>
+                  <witness>
+                     <bibl xml:id="Ms" type="volume">
+                        <title>Dei sepolcri poesie di Ugo Foscolo d'Ippolito Pindemonte e di Giovanni Torti. 
+                           Aggiuntovi uno squarcio di Vincenzo Monti sullo stesso soggetto ed una dissertazione di Girolamo 
+                           Federico Borgno traduzione dal latino con alcune altre poesie già divulgate</title>
+                        <author>Ugo Foscolo</author>
+                        <editor>Silvestri</editor>
+                        <date when="1813">1813</date>
+                        <pubPlace>Milano</pubPlace>
+                     </bibl>
+                  </witness>
+               </listWit>
+            </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <!-- esempio di intestazione preso dal sonetto n° 3 -->
+     <front>
+        <epigraph>
+           <p>
+              PER LA SENTENZA <lb/>
+              PROPOSTA <lb/>
+              NEL GRAN-CONSIGLIO CISALPINO <lb/>
+              CONTRO LA LINGUA LATINA <lb/>
+           </p>
+        </epigraph>
+     </front>
+     <!-- codifica sonetto n° 2 -->
+      <body>
+         <div type="sonetto" xml:id="sonetto_2">
+               <lg>
+                  <!-- Codifico i singoli versi con un xml:id nella forma "SnumerosonettoVnumeroverso" -->
+                  <l xml:id="S2V1">Non son chi fui; perì di noi gran parte:</l>
+                  <l xml:id="S2V2">Questo
+                     <app>
+                        <lem wit="#Mn #Md"/>
+                        <rdg wit="#Pg #Ps">,</rdg>
+                     </app> che 
+                     <app>
+                        <lem wit="#Pg #Ps">avanza</lem>
+                        <rdg wit="#Mn #Md">avvanza</rdg>
+                     </app> è sol languore e pianto.
+                  </l>
+                  <l xml:id="S2V3">E secco è il mirto, e son le foglie sparte</l>
+                  <l xml:id="S2V4">Del lauro, speme al 
+                     <app>
+                        <lem wit="#Md #Mn">giovenil</lem>
+                        <rdg wit="#Ps #Pg">giovanil</rdg>
+                     </app> mio canto.
+                  </l>
+               </lg>
+               <lg>
+                  <l xml:id="S2V5">Perchè dal dì
+                     <app>
+                        <lem wit="#Mn #Md"/>
+                        <rdg wit="#Pg #Ps">,</rdg>
+                     </app>
+                     ch'
+                     <app>
+                        <lem wit="#Pg #Ps #Md">empia</lem>
+                        <rdg wit="#Mn">empiea</rdg>
+                     </app> licenza e Marte
+                  </l>
+                  <l xml:id="S2V6">Vestivan me del lor sanguineo manto,</l>
+                  <l xml:id="S2V7">Cieca 
+                     <app>
+                        <lem wit="#Md #Mn">è</lem>
+                        <rdg wit="#Ps #Pg">ho</rdg>
+                     </app> la mente
+                     <app>
+                        <lem wit="#Mn #Md"/>
+                        <rdg wit="#Pg #Ps">,</rdg>
+                     </app> 
+                     e guasto il 
+                     <app>
+                        <lem wit="#Mn #Md">core</lem>
+                        <rdg wit="#Pg #Ps">cuore</rdg>
+                     </app>, ed arte</l>
+                  <l xml:id="S2V8">
+                     <app>
+                        <lem wit="#Ps #Pg #Md #Mn">La fame d'oro</lem>
+                        <rdg wit="#Ms">L'umana strage</rdg>
+                     </app>, arte è in me fatta, e vanto.</l>
+               </lg>
+               <lg>
+                  <l xml:id="S2V9">Che se pur sorge di morir consiglio,</l>
+                  <l xml:id="S2V10">A mia fiera ragion chiudon le porte</l>
+                  <l xml:id="S2V11">Furor di gloria, e carità di figlio.</l>
+               </lg>
+               <lg>
+                  <l xml:id="S2V12">Tal di me schiavo, e 
+                     <app>
+                        <lem wit="#Mn #Md">d'</lem>
+                        <rdg wit="#Pg #Ps">di</rdg>
+                     </app>altri, e della sorte,</l>
+                  <l xml:id="S2V13">Conosco il meglio
+                     <app>
+                        <lem wit="#Mn #Md"/>
+                        <rdg wit="#Pg #Ps"></rdg>
+                     </app> ed al peggior mi appiglio,
+                  </l>
+                  <l xml:id="S2V14">E so invocare
+                     <app>
+                        <lem wit="#Mn #Md"/>
+                        <rdg wit="#Pg #Ps">,</rdg>
+                     </app> e non darmi la morte.
+                  </l>
+               </lg>
+         </div>
+      </body>
+  </text>
+</TEI>
