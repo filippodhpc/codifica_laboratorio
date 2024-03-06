@@ -20,7 +20,7 @@
                <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
             </availability>
          </publicationStmt>
-            <sourceDesc>
+         <sourceDesc>
                <!-- Edizione di riferimento per il testo base -->
                <bibl>
                   <author xml:id="UF">Ugo Foscolo</author>
