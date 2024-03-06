@@ -273,19 +273,15 @@
          <div type="commmento" n="2" xml:id="sonetto_2">
             <note target="S2V1" targetEnd="S2V2" type="comm">1-2. 
                <ref rend="bold">Non...pianto</ref>: vedi 
-               <bibl corresp="#Massimiano_Elegie">Massimiano, Elegiae, I, 1-2</bibl>: 
-               <quote source="#Massimiano_Elegie" ana="I, 1-2" xml:lang="lat" type="diretta">
+               Massimiano, Elegiae, I, 1-2: 
+               <quote source="#Massimiano_Elegie" ana="I, 1-2">
                   «Non sum qui fueram: perit pars maxima nostri;<lb/> 
                   hoc quoque quod superest languor et horror habet»
-               </quote> (Carrer). E in lettera all’Arese, 
-               <bibl corresp="#Epistolario">Epistolario, I, p. 318</bibl>: 
-               <quote source="#Epistolario" ana="I, p. 318" type="diretta">
+               </quote> (Carrer). E in lettera all’Arese, Epistolario, I, p. 318: 
+               <quote source="#Epistolario" ana="I, p. 318">
                 «Mi sento mancare una parte della vita, e questo che mi avanza mi pare che sia
-                circondato dal languore e dalla tristezza della morte» </quote>(Mestica), e ancora
-                  nell'<emph>Ortis</emph> (1802): «[...] sai che non altro m’avanza fuorché il
-                  pianto e la morte» (Mestica). 
-                  Vedi inoltre 
-               Petrarca, Rime, XXXVII, 52:
+                circondato dal languore e dalla tristezza della morte» 
+	       </quote>(Mestica), e ancora nell'<emph>Ortis</emph> (1802): «[...] sai che non altro m’avanza fuorché il pianto e la morte» (Mestica). Vedi inoltre Petrarca, Rime, XXXVII, 52:
                <quote source="#Petrarca_Rime" ana="XXXVII, 52">«[...] di me la miglior parte [...]»</quote>; Bembo, CXLIII, 10: 
                <quote source="#Bembo_Rime" ana="CXLIII, 10">«di me stesso sparir la miglior parte»</quote>; Alfieri, Agide, atto I, scena I, 3: 
                <quote source="#Alfieri_Agide" ana="atto I, scena I, 3">«o d’essa almen la miglior parte»</quote>; Alcesti, atto II, scena IV, 1-2: 
