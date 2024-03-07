@@ -272,7 +272,7 @@
          <!-- div per il testo del commento al sonetto -->
          <div type="commmento" n="2" xml:id="sonetto_2">
             <note target="S2V1" targetEnd="S2V2" type="comm">1-2. 
-               <ref rend="bold">Non...pianto</ref>: vedi 
+               <ref>Non...pianto</ref>: vedi 
                Massimiano, Elegiae, I, 1-2: 
                <quote source="#Massimiano_Elegie" ana="I, 1-2">
                   «Non sum qui fueram: perit pars maxima nostri;<lb/> 
@@ -314,7 +314,7 @@
                <quote source="#Tasso_Rime" ana="676, 4">«[...] Questo ch’avanza [...]»</quote>. 
             </note>
             <note target="S2V3" targetEnd="S2V3" type="comm">
-               3-4. <ref rend="bold">E...canto</ref>: e l’amore si è estinto (il mirto è pianta sacra a Venere, e simboleggia l’amore), e sono
+               3-4. <ref>E...canto</ref>: e l’amore si è estinto (il mirto è pianta sacra a Venere, e simboleggia l’amore), e sono
                cadute disperse le foglie del lauro (sacro ad Apollo, e simbolo della gloria
                poetica, e come tale ricordato nei Sepolcri, 55: 
                <quote source="#Foscolo_Sepolcri">«nel suo povero tetto educò un lauro»</quote>, e nelle <quote source="#Foscolo_Grazie">Grazie</quote>, I, 264-5: 
@@ -343,7 +343,7 @@
                <quote source="#Parini_Odi" ana="A Silvia, 90 e 92">«e de le membra sparte /[...]/ e del morir con arte»</quote>.
            </note>
             <note target="S2V5" targetEnd="S2V8">
-               5-8. <ref rend="bold">Perché...vanto</ref>: e infatti dal giorno in cui la licenza rivoluzionaria e 
+               5-8. <ref>Perché...vanto</ref>: e infatti dal giorno in cui la licenza rivoluzionaria e 
                la guerra mi adusarono alla violenza sanguinaria, la mia mente fu accecata dalle 
                passioni, divenendo incapace di distinguere il bene dal male, e l’animo si corruppe, 
                così che il desiderio di ricchezze, di cui anche meno vanto, divenne in me arte. 
@@ -364,7 +364,7 @@
                <quote source="#Foscolo_Ortis_02">«La mia mente è cieca, le menbra oscillanti, e il cuore guasto qui nel profondo».</quote>
             </note>
             <note target="S2V9">
-               9. <ref rend="bold">Che...consiglio</ref>: e se pure sorge, si fa strada, il proposito del suicidio. 
+               9. <ref>Che...consiglio</ref>: e se pure sorge, si fa strada, il proposito del suicidio. 
                <ref rend="bolg">Che se</ref>: con valore rafforzativo, come al v. 5 di 
                <bibl corresp="#Foscolo_CheStai" ana="5">Che stai? già il secai l’orma ultima lascia</bibl>, piuttosto che causale come al v. 5 di 
                <bibl corresp="#Foscolo_TeNudrice" ana="5">Te nudrice alle muse, ospite e Dea</bibl>, al v. 3 di 
@@ -373,7 +373,7 @@
                causale sono accentate), e al v. 186 dei <bibl corresp="#Foscolo_Sepolcri" ana="186">Sepolcri</bibl>. 
             </note>
             <note target="S2V10">
-               10. <ref rend="bold">a...ragion</ref>: «fiera» nel senso di terribile al limite di una istintiva 
+               10. <ref>a...ragion</ref>: «fiera» nel senso di terribile al limite di una istintiva 
                irrazionalità è preposto antifrasticamente a ragion, determinazione
                maturata tramite ragionamento. Ma si tenga anche presente la possibile,
                se non probabile, alternativa costituita da fiera nel senso di trattante 
@@ -384,7 +384,7 @@
                <quote source="#Cellio_Magno">«E s’al mesto pensier chiuder le porte / col chiuder gli occhi io cerco [...]»</quote>.
             </note>
             <note target="S2V11">
-               11. <ref rend="bold">furor di gloria</ref>: vedi Foscolo, Frammenti di un romanzo autobiografico:
+               11. <ref>furor di gloria</ref>: vedi Foscolo, Frammenti di un romanzo autobiografico:
                <quote source="#Foscolo_autobiografico">«Ho sentito...lo dico arrossendo...ho sentito e sento - lascia prima
                ch’io mi copra con le mani la faccia - una febbre di gloria che m’ubbriaca
                perpetuamente la testa»</quote>; 
@@ -396,7 +396,7 @@
                <quote source="#Dante_Commedia" ana="Inf., XIV, 1">«Poi che la carità del natio loco»</quote> (Ferrari). 
             </note>
             <note target="S2V12" targetEnd="S2V14">
-               12-4. <ref rend="bold">Tal...morte</ref>: e però (tal: così) condizionato da me, dal mio prossimo 
+               12-4. <ref>Tal...morte</ref>: e però (tal: così) condizionato da me, dal mio prossimo 
                e dal destino, come so riconoscere il partito migliore senza con ciò evitare 
                di attenermi al peggiore, così ho la forza di desiderare la morte senza trovare 
                poi quella di darmela effettivamente.
@@ -406,7 +406,7 @@
                <quote source="#Ovidio_Metamorfosi" ana="VII, 20-1">«[...] video meliora proboque, / deteriora sequor! [...]»</quote>; Fantoni, II, Ode XXII, 48: 
                <quote source="#Fantoni_Poesie" ana="II, Ode XXII, 48">«far plauso al male, ed appigliarsi al peggio</quote>»; Pindemonte, II, I Viaggi, 957: 
                <quote source="#Pindemonte_Poesie">«quando sete del meglio al peggio guida»</quote>. 
-               14. <ref rend="bold">e...morte</ref>: vedi Foscolo, In morte del padre, sonetto
+               14. <ref>e...morte</ref>: vedi Foscolo, In morte del padre, sonetto
                Fu tutto pianto: e con un grido acuto, 14: 
                <quote source="#Foscolo_pianto" ana="14">«[...] e ad invocar la morte»</quote> 
                (Edizione Nazionale, II, p. 301); Le Rimembranze, 58: 
